@@ -1,0 +1,45 @@
+.navbar {
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;   
+    background: #fff;
+    padding:15px 7%;
+    transition: 0.5s;
+
+}
+.heading {
+    
+    margin-left: 20px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    justify-content: flex-start;
+    color:auto;
+} 
+
+ul {
+    list-style: none;
+    display: flex;
+    flex:1;
+    text-align: center;
+}
+ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: right;
+    cursor: pointer;
+    color:auto;
+}
+.logo {
+    width: 40px;
+    height:auto;
+    cursor:pointer;
+    margin-left:20px;
+}
+.dark  .navbar {
+    background: #000;
+    color:#fff;
+}   
