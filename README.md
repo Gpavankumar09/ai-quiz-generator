@@ -116,44 +116,22 @@ GET	/quiz/{id}	Returns details for a specific quiz
 
 🧠 LangChain Prompt Templates
 
-Below are the key prompt templates used in llm_quiz_generator.py:
+You are a helpful assistant that converts a Wikipedia article into an educational quiz.
+Article text:
+{article_text}
 
+Produce a JSON object with these keys:
+- title: string
+- summary: short 2-4 sentence summary
+- questions: list of questions (id, type, question, options (list) if MCQ, correct_answer, explanation)
+- key_entities: list of key named entities (3-10)
+- topics: list of related topics (3-6)
 
-from langchain.prompts import PromptTemplate
+Produce exactly VALID JSON, no commentary.
 
-
-quiz_prompt = PromptTemplate.from_template("""
-
-Generate 10-15 multiple-choice quiz questions about the topic: {topic}.
-
-Each question should have 4 options (A, B, C, D) and mention the correct answer.
-
-Return output in JSON format:
-
-[
-
-  {{
-  
-    "question": "...",
-    
-    "options": {{
-    
-      "A": "...",
-      
-      "B": "...",
-      
-      "C": "...",
-      
-      "D": "..."
-      
-    }},
-    
-    "answer": "A"
-    
-  }},
-  ...
-]
-""")
+Example question item:
+{{"id":1,"type":"multiple_choice","question":"...","options":["A","B","C","D"],"correct_answer":"A","explanation":"..."}}
+"""
 
 🧾 Example API Response
 {
