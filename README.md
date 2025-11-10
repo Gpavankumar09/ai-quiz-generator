@@ -24,6 +24,11 @@ Page	Description
 
 📚 Tab 2 - History View	View previously generated quizzes from the SQLite database.
 🪄 Details Modal	See detailed questions, answers, and options in a popup view.
+<img width="1802" height="951" alt="image" src="https://github.com/user-attachments/assets/693607d4-bb4b-4068-933e-1687355a0acc" /> 
+<img width="942" height="712" alt="image" src="https://github.com/user-attachments/assets/a2a8ceb2-b0d9-41be-a85d-e309eb334cfa" />
+<img width="1870" height="904" alt="image" src="https://github.com/user-attachments/assets/5df4e5e8-6b6e-4230-8bb4-c36b9d1516bc" />
+<img width="1794" height="890" alt="image" src="https://github.com/user-attachments/assets/dbde4f2c-4bc2-4468-9e45-a9946a1d5f60" />
+<img width="1814" height="901" alt="image" src="https://github.com/user-attachments/assets/a782ecbb-a1eb-46e9-b875-750c2573661e" />
 
 
 
